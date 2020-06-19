@@ -1,0 +1,9 @@
+(sec.php)
+course_map -> sec_map
+lec_map -> stu_map
+(course .php)
+course_id -> sec_id
+$course_name -> sec_name
+ $lec_names -> stu-names
+lec_no -> stu_no
+$courses -> ses

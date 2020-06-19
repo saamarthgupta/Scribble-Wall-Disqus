@@ -1,0 +1,94 @@
+html { 
+  background: url("../data/bback.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {  margin-bottom:50px; margin-top:50px; margin-right:50px; margin-left:50px;  
+        
+        font-family:"Myriad Pro";
+        
+
+            }
+
+    a:link { 
+            COLOR:white;
+         }
+    a:visited {
+            COLOR: white;
+        }
+    a:hover {
+            COLOR: white;
+        }
+    a:active {
+            COLOR: white;
+        }
+    a       {
+          text-decoration:none;
+
+
+        }
+
+td  { align:center;
+	 }
+
+#lectures {
+	background: rgba(255,255,255,0.25);
+	padding: 10px;
+	border-radius: 1em;
+	list-style: none;
+}
+
+li{
+	margin-left: 10px;
+
+
+}
+
+h1, h2, h3{
+	color: white;
+}
+
+table
+{
+	border: solid medium transparent;
+}
+
+table td {
+	border-radius: 10px;
+}
+
+p {
+	color:white;
+}
+
+caption {background:rgba(255, 165, 0,1);
+	border-radius: 10px;
+	border: solid medium transparent;
+
+}
+
+
+.button{
+	background: white;
+	padding: 15px;
+	text-align: center;
+	border-radius: 1em;
+}
+
+hr{
+	border:solid 0px white;
+	height:2px;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+    background: -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+input {
+    height:40px;
+    font-size:20px;
+    width:400;
+}
+			

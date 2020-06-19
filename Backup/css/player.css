@@ -1,0 +1,69 @@
+html { 
+  background: url("../data/back4.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body { margin-bottom:50px; margin-top:50px; margin-right:50px; margin-left:80px;  
+        
+        font-family:"Myriad Pro";
+      
+            }
+
+
+#player {                  /***** Style for Video Player *****/
+            width: 60%; 
+            margin-left: auto;
+            margin-right: auto;
+            #border: solid #222 20px;
+            #border-radius: 15px;
+        }
+
+        #prev_button {
+            float: left;            /***** Style for Prev and Next Button  ****/
+        }
+
+        #next_button {
+            float: right;
+        }
+
+        .navbutton {
+            padding: 5px;
+            background: #136;
+            border: solid medium transparent #ddd 2px;
+            border-radius: 8px;
+        }
+
+        #player a:link, #player a:visited, #player a:hover {
+            color: #ddd;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: 'Lucida Sans'
+        }
+
+        a:link{ COLOR:#FFFFFF;
+        }
+        a:visited {
+                COLOR: #FFFFFF;
+        }
+        a:hover {
+                COLOR: #FFFFFF;             /***** Apperarance of a Link *****/
+        }
+        a:active {
+                COLOR: #FFFFFF;
+        }
+        a      {
+            text-decoration:none
+        }
+hr{
+	border:solid 0px black;
+	height:2px;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
